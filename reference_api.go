@@ -1,6 +1,8 @@
 package main
 
 import (
+    "github.com/jinzhu/gorm"
+    _ "github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/ant0ine/go-json-rest/rest"
 	"log"
 	"net"
